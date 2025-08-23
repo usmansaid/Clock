@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChronoSync | Online Clock & Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+
+    <!-- Meta description -->
+    <meta name="description" content="ChronoSync is a modern online clock and stopwatch. Track time with precision, switch between real-time clock and stopwatch, and stay synced.">
+
+    <!-- Keywords -->
+    <meta name="keywords" content="online clock, stopwatch, digital clock, timer, ChronoSync, time tracker">
+
+    <!-- Author -->
+    <meta name="author" content="Usman Said">
+
+    <!-- Open Graph (Facebook, LinkedIn, etc.) -->
+    <meta property="og:title" content="ChronoSync | Online Clock & Stopwatch">
+    <meta property="og:description" content="Switch between a modern online clock and a stopwatch with ChronoSync. Track time with style and accuracy.">
+    <meta property="og:image" content="https://username.github.io/repository-name/favicon.png">
+    <meta property="og:url" content="https://username.github.io/repository-name/">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="ChronoSync | Online Clock & Stopwatch">
+    <meta name="twitter:description" content="Track time with a modern online clock and stopwatch. Stay synced with ChronoSync.">
+    <meta name="twitter:image" content="https://username.github.io/repository-name/favicon.png">
+
+    <!-- Font Used -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+    <!-- Icons linked -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+     <!-- Structured Data (JSON-LD for Google) -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebApplication",
+            "name": "ChronoSync",
+            "url": "https://username.github.io/repository-name/",
+            "description": "ChronoSync is a modern online clock and stopwatch for tracking time with precision.",
+            "applicationCategory": "UtilityApplication",
+            "operatingSystem": "All"
+        }
+  </script>
+</head>
+<body>
+    <div class="container active">
+        <span class="cover">
+            <div class="bar">
+                <div class="day">SUN</div>
+                <div class="day">MON</div>
+                <div class="day">TUE</div>
+                <div class="day">WED</div>
+                <div class="day">THU</div>
+                <div class="day">FRI</div>
+                <div class="day">SAT</div>
+            </div>
+            <div class="time"></div>
+            <div class="lastBar">
+                <div class="themeIcon">
+                    <ion-icon class="icon-1" name="sunny-outline"></ion-icon>
+                </div>
+                <div class="date"></div>
+                <div class="stopWatch">
+                    <ion-icon class="icon-2" name="stopwatch-outline"></ion-icon>
+                </div>
+            </div>
+        </span>
+    </div>
+    
+    <div class="stopWatchContainer">
+        <span class="cover cover2">
+            <div class="upperContainer">
+                <div class="back upperDiv">
+                    <ion-icon class = "backIcon"name="arrow-back-outline"></ion-icon>
+                </div>
+                    <div class="themeIcon-2 upperDiv">
+                    <ion-icon class="icon-3" name="sunny-outline"></ion-icon>
+                    </div>
+            </div>
+            <div class="stopWatchTimeContainer">00 : 00 : 00 : 000</div>
+            <div class="buttonsDiv">
+                <div class="btn start">Start</div>
+                <div class="btn pause">Pause</div>
+                <div class="btn reset">Reset</div>
+            </div>
+        </span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
